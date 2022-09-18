@@ -82,5 +82,6 @@ The download method will return an instance of the Download class which has a wh
   *Arguments*: (number chunkN)
 * *event* **flush**
   This event gets fired every time the chunk queue gets cleared.
+  *Arguments*: (number flushedChunkCount)
 * *event* **end**
   This event gets fired once the download is fully finished.
