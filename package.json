@@ -1,14 +1,14 @@
 {
-  "name": "faster-download",
+  "name": "fastdl",
   "version": "1.0.0",
-  "description": "A utility package to download files using multiple HTTP streams.",
+  "description": "A minimal, performant and customisable library used to download files at high speeds using multiple sockets.",
   "main": "index.js",
   "scripts": {
     "test": "node test/benchmark.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noahcoolboy/faster-download.git"
+    "url": "git+https://github.com/noahcoolboy/fastdl.git"
   },
   "keywords": [
     "download"
@@ -16,9 +16,9 @@
   "author": "noahcoolboy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noahcoolboy/faster-download/issues"
+    "url": "https://github.com/noahcoolboy/fastdl/issues"
   },
-  "homepage": "https://github.com/noahcoolboy/faster-download#readme",
+  "homepage": "https://github.com/noahcoolboy/fastdl#readme",
   "devDependencies": {
     "undici": "^5.10.0"
   }

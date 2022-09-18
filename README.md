@@ -1,15 +1,15 @@
-# faster-download
+# fastdl
 A minimal, performant and customisable library used to download files at high speeds using multiple sockets.
 ## Installation
 Install the library via npm using the following command:
 ```bash
-npm i faster-download
+npm i fastdl
 ```
 ## Usage
 2 methods will be at your disposal. They can be used as follows  
 
 ```js
-const download = require("faster-download")
+const download = require("fastdl")
 download.download(url, options) // Returns a Download instance
 await download.downloadAsync(url, options) // Returns a Buffer
 ```
@@ -17,7 +17,7 @@ await download.downloadAsync(url, options) // Returns a Buffer
 The download method should be used in most cases, but downloadAsync is also helpful when you only one the file buffer and do not need to do anything special.
 
 ## Options
-Faster-download is able to cover a wide range of applications, which is why it has quite a few options.
+Fastdl is able to cover a wide range of applications, which is why it has quite a few options.
 
 * *number* **chunkSize**  
   Downloads are done in "chunks". Each thread downloads one chunk at a time.  
